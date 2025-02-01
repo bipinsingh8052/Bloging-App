@@ -17,12 +17,12 @@ const Schema = new mongoose.Schema({
         // store a another schema it in the from
         types:mongoose.Schema.Types.ObjectId,
                 // comment write in the see it what you exported it in the schema of like
-        ref:"like"
+        ref:"Like",
     }],
     comments:[{
         types:mongoose.Schema.Types.ObjectId,
         // comment write in the see it what you exported it in the schema of comments
-        ref:"comment"
+        ref:"comment",
     }]
 })
 
